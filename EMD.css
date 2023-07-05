@@ -1,0 +1,155 @@
+body{
+  font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;;
+font-weight: bold;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: white;
+}
+div{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.top{
+background-image: url("https://img.freepik.com/foto-gratis/todos-sonrien-escuchan-grupo-personas-conferencia-negocios-aula-moderna-dia_146671-16288.jpg?w=1480&t=st=1687981329~exp=1687981929~hmac=ac5e9ecde71bd15f80267b96b6e56e91e4748f20982ad4ef3f5a34aec8b1ef25");
+background-size: cover;
+background-position: center;
+transition: background-image 1s ease-in-out;
+height: 600px;
+margin-top: 0;
+display: flex;
+}
+.top.fade-in{
+background-image: url("https://img.freepik.com/foto-gratis/gente-negocios-dandose-mano_53876-13391.jpg?w=1480&t=st=1687981375~exp=1687981975~hmac=1d20a6f2b68679bcbcc2274547516a33e70e537d4900fc20b3426b0b8b3c9e18");
+filter: blur(30px);
+}
+.top.fade-in.loaded{
+filter: blur(0);
+}
+.top.fade-in.loaded.next {
+    background-image: url("https://img.freepik.com/foto-gratis/sistema-html-concepto-sitio-web_23-2150376750.jpg?w=1480&t=st=1687981454~exp=1687982054~hmac=e8b11c0883c31829497a5756864be8215679de49630109d646a361e23b720670");
+  }
+img{
+  width: 250px;
+  height: 125px;
+}
+.eslogan{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: black;
+font-size: 28px;
+font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;;
+}
+li{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+
+
+h1{
+  
+  justify-content: center;
+  
+  margin-top: 50px;
+  padding-left: 30px;
+  font-family: _Bebas_Neue;
+  font-size: 40px;
+  
+}
+
+
+
+
+
+.logo{
+width: 250px;
+height: 125px;
+}
+#enlaces_top:hover{
+color: black;
+background-color: white;
+align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .text {
+  flex: 1;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.container .image {
+  flex: 1;
+  
+  padding: 5px;
+  
+}
+.image{
+  width:50%;
+  height: 400px;
+}
+
+@media (max-width: 700px) {
+  .container .text, .container .image {
+    flex: 100%;
+  }
+  .container.text{
+    font-size: 5px;
+  }
+  .image{
+    width :30%;
+    height: 300px;
+    border-radius: 15px;
+  }
+  .undefined_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
+    padding: 20px;
+    padding-bottom: 250px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+h4{
+  padding: 20px;
+  align-items: center;
+}
+.undefined_list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  padding: 20px;
+}
+li{
+  padding: 20px;
+ 
+}
+a{
+  text-decoration: none;
+  color: #ffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.enlaces{
+  display: flex;
+}
